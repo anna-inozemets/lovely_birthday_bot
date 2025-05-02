@@ -1,14 +1,14 @@
-# Используем официальный PHP образ
+# Use the official PHP image
 FROM php:8.2-cli
 
-# Устанавливаем рабочую директорию
+# Set the working directory
 WORKDIR /app
 
-# Копируем весь проект внутрь контейнера
+# Copy the entire project into the container
 COPY . .
 
-# Указываем порт, который будет использовать Render (он слушает $PORT)
+# Specify the port that Render will use (it listens to $PORT)
 EXPOSE 10000
 
-# Используем переменную среды $PORT, которую задает Render
+# Use the $PORT environment variable set by Render
 CMD ["sh", "-c", "php -S 0.0.0.0:$PORT index.php"]
