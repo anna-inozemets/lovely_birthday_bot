@@ -1,0 +1,2 @@
+{"update_id":506153962,
+"message":{"message_id":15,"from":{"id":485658384,"is_bot":false,"first_name":"\u0410\u043d\u044f","username":"inoznetta","language_code":"uk"},"chat":{"id":485658384,"first_name":"\u0410\u043d\u044f","username":"inoznetta","type":"private"},"date":1745786383,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
